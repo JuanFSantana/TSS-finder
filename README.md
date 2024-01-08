@@ -40,10 +40,11 @@ yes/no for bed output for conversion to bedgraph: <string> Specify 'yes' or 'no'
 
 
 - BED file with every read pertaining to indentified TSSs (optional)
+
 | chromosome | Read-start | Read-end |  ID  | column | Strand |
 |:----------:|:----------:|:---------|------|--------|-------:|
 |    chr2    |    535     |   600    |  xxx |   .    |   +    |
 
 ### Illustration
 
-<img width="481" alt="snakemake-flowchart-50" src="https://github.com/JuanFSantana/TSS-finder/assets/38702786/d8bff4d5-ae5a-45dd-8d87-e4131d1f1a49">
+<img width="481" alt="snakemake-flowchart-50" src="https://github.com/JuanFSantana/TSS-finder/assets/38702786/c57cb44b-b350-4007-be4d-0ae1af3df1ef">
