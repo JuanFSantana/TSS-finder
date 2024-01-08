@@ -15,10 +15,6 @@ Transcription start sites (TSS) are identified and their corresponding total cou
 
 ### Usage
 
-In the working directory, save `sampleskey.csv` and `.fastq.gz` files. 
-The bed file name should correspond to a name present in `sampleskey.csv`.
-Run:
-
 ```
 ./tss-finder <bed file> <TSS region (int)> <minimum counts per TSS (int)> <yes/no for bed output for conversion to bedgraph>
 ```
@@ -40,14 +36,14 @@ yes/no for bed output for conversion to bedgraph: <string> Specify 'yes' or 'no'
 
 | chromosome | TSS-start | TSS-end | TSS-counts | avg. transcript lengths | Strand |
 |:----------:|:---------:|:--------|------------|-------------------------|-------:|
-|    chr2    |  535      |  536    |   100      |       50.23             |  +     |
+|    chr2    |    535    |    536  |     100    |           50.23         |   +    |
 
 
 - BED file with every read pertaining to indentified TSSs (optional)
 | chromosome | Read-start | Read-end | ID | column | Strand |
 |:----------:|:----------:|:---------|----|--------|-------:|
-| chr2       |  535       |   600    |xxx |  .     |  +     |
+|    chr2    |    535     |   600    |xxx |   .    |   +    |
 
 ### Illustration
 
-![tss-finder](https://github.com/JuanFSantana/TSS-finder/assets/38702786/719dc006-2e05-4e73-96e5-9ad899420883)
+![tss-finder](https://github.com/JuanFSantana/TSS-finder/assets/38702786/d8bff4d5-ae5a-45dd-8d87-e4131d1f1a49)
