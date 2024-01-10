@@ -52,6 +52,12 @@ int main(int argc, char *argv[])
         return 1;
     }
 
+    if (bedOutput != "yes" && bedOutput != "no")
+    {
+        std::cerr << "Invalid argument. Please provide yes or no for bed output." << std::endl;
+        return 1;
+    }
+
     int tssRegion, minTssCounts;
     try
     {
